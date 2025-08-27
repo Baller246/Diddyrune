@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_noellewd",
+    "path":"sprites/spr_noellewd/spr_noellewd.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
