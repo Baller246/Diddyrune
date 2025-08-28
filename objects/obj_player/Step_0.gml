@@ -17,3 +17,21 @@ yspd = (down_key - up_key) * move_spd
 
 x += xspd
 y += yspd
+
+//animate
+if(xspd > 0){
+	sprite_index = spr_noellewr	
+} else if (xspd < 0){
+	sprite_index = spr_noellewl
+} else if (yspd > 0){
+sprite_index = spr_noellewd	
+} else if (yspd < 0){
+sprite_index = spr_noellewu
+}
+
+if(xspd !=  0 or yspd != 0){
+	image_speed = 1	
+} else{
+	image_speed = 0
+	image_index = 0
+}
